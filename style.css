@@ -1,0 +1,175 @@
+*{
+    font-family: 'Montserrat';
+    color:black;
+}
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+  #myBtn {
+    display: none; /* Hide the button by default */
+    position: fixed; /* Fixed position */
+    bottom: 20px; /* Position from the bottom */
+    right: 30px; /* Position from the right */
+    z-index: 99; /* Set z-index to make sure it appears on top of other elements */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    background-color: #f5dfdf; /* Background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Cursor style */
+    padding: 15px; /* Padding */
+    border-radius: 10px; /* Border radius */
+  }
+  
+  #myBtn:hover {
+    background-color: #1181b9; /* Darker background color on hover */
+  }
+  /* Custom styles for the contact form */
+
+.container {
+    padding-top: 10px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .form-group label {
+    color: #555;
+  }
+  
+  .form-control {
+    border-color: #ccc;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  /* Optional: Add some padding to the form */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Increase the font size for better readability */
+  .form-control,
+  .btn {
+    font-size: 16px;
+  }
+  .footer {
+
+    padding: 50px 0;
+  }
+  
+  .footer h3 {
+    color: #333;
+  }
+  
+  .footer p {
+    color: #666;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  @media (max-width:500px) {
+    .image{
+    
+      width: 200px;
+    }
+    .card1{
+      width: 200%;
+      height: 100%;
+     display: none;
+    }
+    .servicesh{
+      font-size: 20px;
+    margin-left: 20px;
+    }
+    
+    .servicesh2{
+      font-size: 20px;
+      
+    }
+    
+    .servicesh3{
+      font-size: 20px;
+     
+    }
+    .click{
+     margin-left: -120px;
+     font-size: 10px;
+    }
+    
+  }
+  
+  
